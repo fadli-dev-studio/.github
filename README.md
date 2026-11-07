@@ -1,86 +1,65 @@
-<div align="center">
-
 # Fadli Dev Studio
 
-**Software Engineering & Digital Agency Studio**  
-*Building High-Performance Web Applications, SME Enterprise Suites, and Scalable Digital Products.*
+Software engineering studio berbasis di Jakarta, Indonesia. Kami membangun aplikasi web, sistem operasional untuk usaha kecil dan menengah (UMKM), serta website korporat.
 
-[![Website](https://img.shields.io/badge/Website-fadlidevstudio.my.id-blue?style=flat-square&logo=cloudflare)](https://fadlidevstudio.my.id/)
-[![Email](https://img.shields.io/badge/Contact-fadli.dev.studio27%40gmail.com-red?style=flat-square&logo=gmail)](mailto:fadli.dev.studio27@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Indonesia-orange?style=flat-square&logo=googlemaps)](https://maps.google.com)
+[fadlidevstudio.my.id](https://fadlidevstudio.my.id/) · [fadli.dev.studio27@gmail.com](mailto:fadli.dev.studio27@gmail.com)
 
 ---
 
-</div>
+## Struktur repositori
 
-## 📌 Tentang Fadli Dev Studio
-
-**Fadli Dev Studio** adalah studio rekayasa perangkat lunak dan agensi digital modern. Kami berfokus pada pengembangan produk digital yang cepat, tangguh, dan berkinerja tinggi—menggabungkan standar rekayasa perangkat lunak yang ketat (*engineering discipline*), desain fungsional berkelas (*refined UI/UX*), serta arsitektur modern berbasis edge computing.
-
-Kami membantu bisnis, korporasi, dan UMKM mentransformasikan proses operasional mereka ke ranah digital melalui platform web kustom, sistem automasi, dan solusi modular enterprise.
-
----
-
-## 🏗️ Ekosistem & Fokus Proyek
+Organisasi ini menggunakan konvensi penamaan berbasis awalan (prefix) untuk mengelompokkan repositori berdasarkan kepemilikan dan peruntukannya.
 
 ```
 fadli-dev-studio/
-├── 🏢 internal-*      # Sistem Operasional, CRM, Landing Page & Engineering Handbook
-├── 🚀 product-*       # Produk Komersial & Ekosistem Aplikasi Bisnis (SME Suite)
-├── 🧪 lab-*           # Riset Teknologi, Eksperimen & Proof of Concept (POC)
-└── 👥 client-*        # Website Korporat, Landing Page & Sistem Pesanan Klien
+├── internal-*   Repositori operasional studio, CRM, dan panduan kerja
+├── product-*    Produk perangkat lunak mandiri dan SaaS
+├── client-*     Website korporat dan aplikasi pesanan klien
+└── lab-*        Eksperimen teknis, riset fitur, dan prototipe
 ```
 
-### 1. 🏢 Internal Ecosystem (`internal-*`)
-Repositori yang menggerakkan fondasi dan alur kerja harian studio:
-- **`internal-landing-page`**: Platform web resmi Fadli Dev Studio ([fadlidevstudio.my.id](https://fadlidevstudio.my.id/)).
-- **`internal-studio-os`**: Studio operating workspace untuk mengelola pipeline proyek dan alur kerja klien.
-- **`internal-fds-crm`**: Agency CRM & workspace internal berbasis Next.js & TypeScript.
-- **`internal-ai-handbook`**: Standar pedoman dan toolkit pembuatan website bagi developer & AI agent.
+### Repositori internal (`internal-*`)
+- `internal-landing-page`: kode sumber website utama [fadlidevstudio.my.id](https://fadlidevstudio.my.id/).
+- `internal-studio-os`: ruang kerja digital untuk manajemen alur kerja proyek studio.
+- `internal-fds-crm`: aplikasi CRM internal untuk pelacakan kontak klien dan riwayat transaksi.
+- `internal-ai-handbook`: panduan standar penulisan kode dan arsitektur web untuk tim dan agen pembantu.
 
-### 2. 🚀 Produk Digital & SME Suite (`product-*`)
-Solusi perangkat lunak terintegrasi yang dirancang untuk efisiensi bisnis:
-- **`product-sme-architecture`**: Master blueprint & spesifikasi arsitektur terdesentralisasi untuk ekosistem SME Suite.
-- **`product-sme-pos-inventory`** & **`product-sme-pos-cashier`**: Sistem Point-of-Sale dan manajemen stok bertingkat.
-- **`product-sme-staff-monitoring`**: Sistem pemantauan aktivitas, kehadiran, dan magang karyawan secara *real-time*.
-- **`product-sme-inventory-warehouse`** & **`product-sme-finance-accounting`**: Layanan pergudangan & pembukuan otomatis *double-entry*.
-- **`product-jago-compro`**: Platform *One Stop Solution* untuk legalitas PT/CV, branding, dan website profil perusahaan.
-- **`product-photobooth`**, **`product-wa-sales-assistant`**, & **`product-chat-commerce`**: Produk interaktif & otomasi conversational sales.
+### Produk perangkat lunak (`product-*`)
+- Ekosistem SME Suite:
+  - `product-sme-architecture`: dokumentasi spesifikasi dan relasi data antar layanan SME Suite.
+  - `product-sme-pos-inventory`: aplikasi kasir (POS) dan pengelolaan stok barang.
+  - `product-sme-pos-cashier`: antarmuka kasir untuk transaksi langsung di toko.
+  - `product-sme-inventory-warehouse`: modul pergudangan dan mutasi stok multi-lokasi.
+  - `product-sme-finance-accounting`: pencatatan pembukuan kas masuk dan keluar.
+  - `product-sme-staff-monitoring`: pelacakan kehadiran dan aktivitas kerja staf harian.
+- `product-jago-compro`: platform layanan pembuatan website profil perusahaan dan administrasi legalitas usaha.
+- `product-photobooth`: aplikasi web photobooth dengan pengolahan frame dan sesi foto langsung.
+- `product-wa-sales-assistant`: integrasi perpesanan untuk penanganan calon pelanggan.
+- `product-chat-commerce`: platform transaksi katalog langsung melalui antarmuka percakapan.
 
-### 3. 👥 Rekayasa Solusi Klien (`client-*`)
-Pengembangan solusi digital terkurasi untuk berbagai sektor industri (hukum, logistik, manufaktur, kesehatan, biro perjalanan, dan F&B):
-- Website profil korporat berkecepatan tinggi dengan skor Lighthouse 90+.
-- Sistem manajemen informasi dan portal pemantauan akademik/klien.
-- E-commerce and catalog ordering platform.
+### Proyek klien (`client-*`)
+Koleksi repositori website korporat, katalog produk, dan portal informasi untuk klien lintas industri, mencakup bidang hukum, kesehatan, logistik, manufaktur, dan biro perjalanan.
 
-### 4. 🧪 Riset & Lab Eksperimen (`lab-*`)
-Inovasi dan pengujian teknologi baru sebelum diadopsi ke lingkungan produksi:
-- **`lab-e-document`**: Generator dan sistem persetujuan (*approval*) dokumen digital berbasis tanda tangan digital (Next.js, Prisma, Tailwind).
-
----
-
-## 🛠️ Standar Teknologi & Arsitektur
-
-Kami menggunakan teknologi modern dengan penekanan pada performa, keamanan, dan portabilitas:
-
-| Lapisan | Teknologi Utama |
-|---|---|
-| **Frontend & UI** | SvelteKit, Svelte 5, Next.js (App Router), Astro, Tailwind CSS, TypeScript |
-| **Backend & Runtime** | Node.js, Bun, PHP (Laravel), TypeScript, REST APIs |
-| **Database & ORM** | Prisma, SQLite, PostgreSQL, MySQL |
-| **Cloud & Deployment** | Cloudflare Workers & Pages, Vercel, Docker |
-| **Prinsip Rekayasa** | Contract-First API, Zero AI-Slop Design, Edge-Ready Performance |
+### Eksperimen dan riset (`lab-*`)
+- `lab-e-document`: prototipe generator dokumen dinamis dengan alur persetujuan bertingkat dan penempatan tanda tangan digital.
 
 ---
 
-## 📬 Hubungi Kami
+## Teknologi
 
-Tertarik membangun produk digital berstandar tinggi bersama Fadli Dev Studio?
-- 🌐 **Website**: [fadlidevstudio.my.id](https://fadlidevstudio.my.id/)
-- ✉️ **Email**: [fadli.dev.studio27@gmail.com](mailto:fadli.dev.studio27@gmail.com)
-- 📍 **Lokasi**: Jakarta, Indonesia
+Teknologi yang digunakan di seluruh proyek organisasi:
+
+- Frontend: TypeScript, SvelteKit, Next.js, Astro, Tailwind CSS
+- Backend: TypeScript, Node.js, Bun, PHP (Laravel)
+- Basis data: PostgreSQL, MySQL, SQLite, Prisma ORM
+- Infrastruktur dan hosting: Cloudflare Workers, Cloudflare Pages, Vercel
 
 ---
-<div align="center">
-  <sub>© 2026 Fadli Dev Studio. All rights reserved.</sub>
-</div>
+
+## Kontak
+
+Untuk pertanyaan kerja sama teknis atau layanan pengembangan web:
+
+- Website: [fadlidevstudio.my.id](https://fadlidevstudio.my.id/)
+- Email: [fadli.dev.studio27@gmail.com](mailto:fadli.dev.studio27@gmail.com)
+- Lokasi: Jakarta, Indonesia
