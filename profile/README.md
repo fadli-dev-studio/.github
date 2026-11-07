@@ -1,10 +1,19 @@
+<div align="center">
+
 # Fadli Dev Studio
 
-Software engineering studio berbasis di Jakarta, Indonesia. Kami membangun aplikasi web, sistem operasional untuk usaha kecil dan menengah (UMKM), serta website korporat.
+**Software Engineering & Digital Agency Studio**  
+*Building High-Performance Web Applications, SME Enterprise Suites, and Scalable Digital Products.*
 
-[fadlidevstudio.my.id](https://fadlidevstudio.my.id/) · [fadli.dev.studio27@gmail.com](mailto:fadli.dev.studio27@gmail.com)
+[![Website](https://img.shields.io/badge/Website-fadlidevstudio.my.id-blue?style=flat-square&logo=cloudflare)](https://fadlidevstudio.my.id/)
+[![Email](https://img.shields.io/badge/Contact-fadli.dev.studio27%40gmail.com-red?style=flat-square&logo=gmail)](mailto:fadli.dev.studio27@gmail.com)
+[![Location](https://img.shields.io/badge/Location-Indonesia-orange?style=flat-square&logo=googlemaps)](https://maps.google.com)
 
 ---
+
+</div>
+
+Software engineering studio berbasis di Jakarta, Indonesia. Kami membangun aplikasi web, sistem operasional untuk usaha kecil dan menengah (UMKM), serta website korporat.
 
 ## Struktur repositori
 
@@ -63,3 +72,8 @@ Untuk pertanyaan kerja sama teknis atau layanan pengembangan web:
 - Website: [fadlidevstudio.my.id](https://fadlidevstudio.my.id/)
 - Email: [fadli.dev.studio27@gmail.com](mailto:fadli.dev.studio27@gmail.com)
 - Lokasi: Jakarta, Indonesia
+
+---
+<div align="center">
+  <sub>© 2026 Fadli Dev Studio. All rights reserved.</sub>
+</div>
